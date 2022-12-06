@@ -1,0 +1,47 @@
+.hero-content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #07092a;
+}
+
+.hero-content h2 span {
+  color: #ffcd39;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #07092a;
+}
+
+.top-course h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #07092a;
+  padding-bottom: 40px;
+}
+
+.top-selling-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 992px) {
+  .hero-content h2,
+  .top-course h2 {
+    font-size: 30px;
+  }
+  .top-selling-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-content h2,
+  .top-course h2 {
+    font-size: 28px;
+  }
+  .top-selling-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

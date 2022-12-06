@@ -1,0 +1,34 @@
+.course-details-card {
+  max-width: 850px;
+  width: 100%;
+  margin: auto;
+  box-shadow: 0px -1px 20px 0px #ebebeb;
+  border-radius: 6px;
+}
+
+.course-details-card img {
+  width: 100%;
+  height: 550px;
+}
+
+.course-details-wrapper h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: #07092a;
+  padding: 50px 0;
+}
+
+.course-details-wrapper h2 span {
+  font-weight: 700;
+  color: #ffcd39;
+}
+
+@media (max-width: 767px) {
+  .course-details-card {
+    padding: 0 10px;
+  }
+  .course-details-card img {
+    height: 280px;
+  }
+}

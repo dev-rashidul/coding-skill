@@ -1,0 +1,32 @@
+.checkout-course h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #07092a;
+}
+
+.checkout-course h3 span {
+  font-weight: 700;
+  color: #ffcd39;
+}
+
+.checkout-course img {
+  height: 500px;
+  margin: 40px 0;
+  border-radius: 10px;
+}
+
+.checkout-course p {
+  font-size: 20px;
+  color: #07092a;
+}
+
+.checkout-course p span {
+  font-weight: 700;
+  color: #ffcd39;
+}
+
+@media (max-width: 767px) {
+  .checkout-course img {
+    height: 280px;
+  }
+}
