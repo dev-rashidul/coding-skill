@@ -88,25 +88,25 @@ const Register = () => {
         <div className="form-field mb-3">
           <label>Full Name</label>
           <FloatingLabel controlId="floatingName" label="Full Name">
-            <Form.Control name="name" type="text" />
+            <Form.Control name="name" type="text" required />
           </FloatingLabel>
         </div>
         <div className="form-field mb-3">
           <label>Photo URL</label>
           <FloatingLabel controlId="floatingPhoto" label="Photo URL">
-            <Form.Control name="photo" type="text" />
+            <Form.Control name="photo" type="text" required />
           </FloatingLabel>
         </div>
         <div className="form-field mb-3">
           <label>Email Address</label>
           <FloatingLabel controlId="floatingEmail" label="Email address">
-            <Form.Control name="email" type="email" />
+            <Form.Control name="email" type="email" required />
           </FloatingLabel>
         </div>
         <div className="form-field mb-4">
           <label>Password</label>
           <FloatingLabel controlId="floatingPassword" label="Password">
-            <Form.Control name="password" type="password" />
+            <Form.Control name="password" type="password" required />
           </FloatingLabel>
         </div>
         <Form.Group className="mb-3" controlId="formBasicCheckbox">

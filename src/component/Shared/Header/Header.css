@@ -31,6 +31,11 @@
   font-size: 18px;
   text-decoration: none;
   color: #07092a;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav li a:hover {
+  color: #747474;
 }
 
 .navbar-nav button {

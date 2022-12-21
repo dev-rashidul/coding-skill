@@ -89,6 +89,7 @@ const Login = () => {
               name="email"
               type="email"
               placeholder="name@example.com"
+              required
             />
           </FloatingLabel>
         </div>
@@ -99,6 +100,7 @@ const Login = () => {
               name="password"
               type="password"
               placeholder="Password"
+              required
             />
           </FloatingLabel>
         </div>
